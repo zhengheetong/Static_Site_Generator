@@ -1,0 +1,1 @@
+python3 src/main.py "/home/vboxuser/Static_Site_Generator/"
