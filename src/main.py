@@ -19,8 +19,7 @@ def main():
         basepath = sys.argv[1]
     if os.path.exists(dir_path_public):
         shutil.rmtree(dir_path_public)
-    print(basepath)
-    
+        
     print("Copying static files to public directory...")
     copy_files_recursive(dir_path_static, dir_path_public)
 
